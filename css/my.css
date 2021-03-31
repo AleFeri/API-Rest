@@ -1,0 +1,89 @@
+body {
+  background: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+}
+
+.even {
+  background: #d3d3d33a;
+}
+
+.container {
+  width: 60%;
+  height: auto;
+  min-height: 60%;
+  margin: auto;
+}
+
+.header {
+  background: #002dac;
+  width: auto;
+  height: auto;
+  padding: 15px 25px 15px 25px;
+  border-radius: 5px 5px 0px 0px;
+  color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header button {
+  color: #f6f6f6;
+}
+
+.header h2 {
+  margin: 0px;
+}
+
+.header .delete {
+  background: #e61919;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.header .add {
+  background: #5cb85c;
+}
+
+.corpo {
+  width: auto;
+  height: auto;
+  min-height: 400px;
+  padding: 15px 25px 25px 25px;
+  background: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.corpo .elemento {
+  border: none;
+  border-top: 1px solid #c7c6c6;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 22.5% 22.5% 22.5% 22.5% 10%;
+      grid-template-columns: 22.5% 22.5% 22.5% 22.5% 10%;
+}
+
+.corpo .elemento div {
+  width: auto;
+  height: auto;
+}
+
+.modal input {
+  width: 250px;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.modal button {
+  width: 100px;
+  height: 25px;
+}
+/*# sourceMappingURL=my.css.map */

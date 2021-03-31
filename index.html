@@ -1,0 +1,61 @@
+<head>
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/logic.js"></script>
+    <script src="js/modal.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Manage <b>Employees</b></h2>
+            <button class="delete" id="delEmp">Delete</button>
+            <button class="add" id="addEmp">Add new Employee</button>
+        </div>
+        <div class="corpo" id="corpo">
+            <div class="elemento">
+                <div><b>Name</b></div>
+                <div><b>Email</b></div>
+                <div><b>Address</b></div>
+                <div><b>Phone</b></div>
+                <div><b>Actions</b></div>
+            </div>
+            <!--
+            <div class="elemento">
+                <div>Thomas Hardy</div>
+                <div>thomashardy@mail.com</div>
+                <div>89 Chiaroscuro Rd, Portland, USA</div>
+                <div>(171)555-2222</div>
+                <div>Actions</div>
+            </div>
+            -->
+            
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Insert new Employee</h2>
+            </div>
+            <div class="modal-body">
+                <center>
+                    <input id="inpId" type="number" placeholder="id" min="0"/><br>
+                    <input id="inpFirstName" type="text" placeholder="firstName" /><br>
+                    <input id="inpLastName" type="text" placeholder="lastName" /><br>
+                    <input id="inpEmail" type="email" placeholder="email" /><br>
+                    <input id="inpPhone" type="text" placeholder="phone" style="margin-bottom: 10px"/><br>
+                </center>
+            </div>
+            <div class="modal-footer">
+                <center>
+                    <h2><button id="addNewEmployee">Aggiungi</button></h2>
+                </center>
+            </div>
+        </div>
+    </div>
+
+</body>
